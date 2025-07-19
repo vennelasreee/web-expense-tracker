@@ -1,0 +1,33 @@
+.expense-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-item div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .expense-item div:first-child {
+    text-align: left;
+  }
+  
+  .expense-item div:last-child {
+    font-weight: bold;
+    color: #333;
+  }
